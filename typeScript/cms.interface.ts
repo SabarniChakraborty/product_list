@@ -21,6 +21,7 @@ interface Dimensions {
     qrCode: string;
   }
 export interface IallProductProps {
+    products: any;
     id: number;
     title: string;
     description: string;

@@ -28,6 +28,7 @@ import {
 } from "@/customHooks/cms.qurey.hooks";
 import { allProductProps, IallProductProps } from "@/typeScript/cms.interface";
 
+
 const AllProducts: React.FC = () => {
   const { data: allProductsData, isPending: allProductsPending } = allProductQuery();
   const { data: allCategoriesData, isPending: allCategoriesPending } = productCategoryQuery();
